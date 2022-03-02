@@ -1,0 +1,20 @@
+//Create databse.
+Create database bigBazar;
+
+//Creates table of warehouse.
+Create Table wareHouse (itemIdW int primary key, itemNameW varchar(200), itemTypeW varchar(200), itemPriceW int, itemQuantityW int);
+
+//Creates table of Store.
+Create Table store (itemIdS int primary key, itemNameS varchar(200), itemTypeS varchar(200), itemPriceS int, itemQuantityS int);
+
+//Creates table of Customer
+Create Table customer(customerId int primary key, customerName varchar(200), customerEmail varchar(300), customerMobile varchar(20), itemId int, itemName varchar(200), itemType varchar(200), itemQty int); 
+
+//To Authenticate  Customer
+user = Joe , password = Biden
+
+//To Authenticate  store Manager
+user = Volodymr , password = Zelenskyy
+
+//To Authenticate  WareHouse Manager
+user = Vladimir , password = Putin
